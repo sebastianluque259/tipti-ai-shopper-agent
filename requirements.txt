@@ -1,0 +1,31 @@
+# Directly Imported Packages
+requests==2.32.4
+pandas==2.3.0
+google-cloud-bigquery==3.34.0
+openai==1.91.0
+python-dotenv==1.1.0
+google-adk==1.5.0
+
+# Dependencies
+google-auth==2.40.3
+google-cloud-core==2.4.3
+google-resumable-media==2.7.2
+googleapis-common-protos==1.70.0
+protobuf==6.31.1
+grpcio==1.73.0
+grpcio-status==1.73.0
+pyasn1==0.6.1
+pyasn1_modules==0.4.2
+rsa==4.9.1
+certifi==2025.6.15
+charset-normalizer==3.4.2
+idna==3.10
+urllib3==2.5.0
+numpy==2.2.6
+python-dateutil==2.9.0.post0
+pytz==2025.2
+tzdata==2025.2
+jiter==0.10.0
+pydantic==2.11.7
+pydantic_core==2.33.2
+tenacity==8.5.0
