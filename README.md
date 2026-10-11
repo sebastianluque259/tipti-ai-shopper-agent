@@ -4,10 +4,6 @@
 
 This project is a portfolio adaptation of an AI Agent designed to help Tipti Shoppers with operational tasks. It allows them to activate and deactivate products, as well as process bulk prices.It does so using Google ADK, which collects the user's required information and uses custom tools access the company's private API and modify it's database.
 
-## Demo
-
-####
-
 ## Problem
 
 When completing an order, Tipti Shoppers must look for the products requested in a physical supermarket, ran by third-party companies. This can be problematic for users and Shoppers due to the inconsistency with stock updates and bulk prices. In the past, Tipti Shoppers had to contact the Tipti Care Team through WhatsApp whenever a product was out of stock or not to be found at all, to request the product to be deactivated. The same happened whenever a bulk price product wasn't properly updated. This hefty process cause a lot of delays in their workflow and created an unnecessary burden on the Tipti Care Team, creating a loophole of inefficiency that deeply affected Tipti's operational performance.
@@ -18,24 +14,7 @@ The agent uses Google ADK's tool-calling capabilities to determine user intent, 
 
 ## System Architecture
 
-User
-↓
-WhatsApp
-↓
-Google ADK
-↓
-LlmAgent
-↓
-Intent Detection
-↓
-Tool Selection
-├── Retailer Lookup
-├── Product Management
-└── Bulk Processing
-↓
-Tipti Internal API
-↓
-Database
+![System Architecture](assets/architecture.png)
 
 ## Tech Stack
 
